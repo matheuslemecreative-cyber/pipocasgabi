@@ -1,8 +1,8 @@
 {
   "store": {
-    "name": "Bih Bih Pipocas Gourmet",
+    "name": "Bibi Pipocas Gourmet",
     "logo": "logo.png",
-    "whatsapp": "",
+    "whatsapp": "5514997560061",
     "description": "Mais que pipoca, é um momento especial!"
   },
   "categories": [
@@ -131,8 +131,8 @@
     {
       "id": "id_46168a53-c4e3-49f8-9fc4-875c9d16671a",
       "name": "Chocolate Belga",
-      "price": 17,
       "category": "Chocolatudas",
+      "price": 17,
       "description": "Chocolate",
       "badge": "",
       "image": "",
