@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#32152f">
+  <title>Doce Estouro | Pipocas Gourmet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+<script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+
+<link rel="icon" type="image/png" sizes="512x512" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+
+
+</head>
+<body>
+
+  <div class="topbar">
+    Feitas com carinho, crocância e muito sabor! 🍿
+  </div>
+
+  <header class="header">
+    <div class="header-inner">
+      <button class="icon-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">
+        <span class="hamburger"><i></i><i></i><i></i></span>
+      </button>
+
+<a href="#inicio" class="brand" aria-label="Bih Bih Pipocas Gourmet">
+  <img
+    src="logo.png"
+    id="storeLogo"
+    class="store-logo"
+    alt="Bih Bih Pipocas Gourmet"
+  >
+</a>
+
+      <nav class="desktop-nav">
+        <a href="#inicio">Início</a>
+        <a href="#cardapio">Cardápio</a>
+      </nav>
+
+      <button class="cart-button" id="cartBtn" aria-label="Abrir carrinho">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="24" height="24">
+          <path d="M3 3h2l2.2 11.2a2 2 0 002 1.6h9.5a2 2 0 002-1.6L22 7H6"/>
+          <circle cx="10" cy="21" r="1"/><circle cx="19" cy="21" r="1"/>
+        </svg>
+        <span id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="menu-overlay" id="menuOverlay"></div>
+  <aside class="side-menu" id="sideMenu" aria-label="Menu de navegação">
+    <div class="drawer-heading">
+      <h2>Explorar sabores</h2>
+      <button class="close-btn" id="closeMenu" aria-label="Fechar menu">×</button>
+    </div>
+    <a href="#inicio" class="menu-link">🏠 Início</a>
+    <a href="#cardapio" class="menu-link">🍿 Todos os produtos</a>
+    <div class="menu-label">CATEGORIAS</div>
+    <div id="menuCategories"></div>
+
+  </aside>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="slider" id="slider">
+        <div class="slides" id="slides"></div>
+<button class="slide-arrow prev" id="prevSlide" aria-label="Banner anterior">
+  <svg width="20" height="20" viewBox="0 0 24 24"
+    fill="none" stroke="currentColor" stroke-width="2.5"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15 18l-6-6 6-6"/>
+  </svg>
+</button>
+
+<button class="slide-arrow next" id="nextSlide" aria-label="Próximo banner">
+  <svg width="20" height="20" viewBox="0 0 24 24"
+    fill="none" stroke="currentColor" stroke-width="2.5"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9 18l6-6-6-6"/>
+  </svg>
+</button>
+        <div class="slide-dots" id="slideDots"></div>
+      </div>
+    </section>
+
+
+<section class="features">
+  <div>
+    <i data-lucide="chef-hat"></i>
+    <strong>Feitas artesanalmente</strong>
+  </div>
+
+  <div>
+    <i data-lucide="sparkles"></i>
+    <strong>Sabores especiais</strong>
+  </div>
+
+  <div>
+    <i data-lucide="heart-handshake"></i>
+    <strong>Preparadas com carinho</strong>
+  </div>
+</section>
+
+
+<section class="products-section container" id="cardapio">
+      <div class="toolbar">
+        <div class="search-box">
+          <span>⌕</span>
+          <input type="search" id="searchInput" placeholder="Qual sabor você procura?" autocomplete="off">
+        </div>
+        <select id="sortSelect" aria-label="Ordenar produtos">
+          <option value="default">Destaques</option>
+          <option value="priceAsc">Menor preço</option>
+          <option value="priceDesc">Maior preço</option>
+          <option value="name">Nome A–Z</option>
+        </select>
+      </div>
+
+
+      <div class="filters" id="filters"></div>
+      <p class="result-count" id="resultCount"></p>
+      <div class="product-grid" id="productGrid"></div>
+
+      <div class="empty-results hidden" id="emptyResults">
+        <span>🍿</span>
+        <h3>Nenhum sabor encontrado</h3>
+        <p>Tente pesquisar por outro nome ou categoria.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>
+<img
+  src="logo.png"
+  id="footerLogo"
+  class="footer-logo"
+  alt="Bih Bih Pipocas Gourmet"
+>
+        <p>Um toque de doçura em cada momento.</p>
+      </div>
+      <small>© <span id="year"></span> • Feito com carinho.</small>
+    </div>
+  </footer>
+
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Seu carrinho">
+    <div class="drawer-heading">
+      <div>
+        <span class="eyebrow">SEU PEDIDO</span>
+        <h2>Meu carrinho 🍿</h2>
+      </div>
+      <button class="close-btn" id="closeCart" aria-label="Fechar carrinho">×</button>
+    </div>
+
+    <div id="cartItems" class="cart-items"></div>
+
+    <div class="cart-footer">
+      <div class="cart-subtotal">
+        <span>Subtotal</span>
+        <strong id="cartTotal">R$ 0,00</strong>
+      </div>
+      <p>🚚 Taxa de entrega calculada pelo WhatsApp.</p>
+      <button id="checkoutBtn" class="checkout-btn">
+        Finalizar no WhatsApp ↗
+      </button>
+      <button id="continueBtn" class="continue-btn">Continuar comprando</button>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <span>✓</span>
+    <div>
+      <strong>Adicionado ao carrinho!</strong>
+      <small>Seu sabor já está no pedido.</small>
+    </div>
+  </div>
+
+  <button class="floating-cart" id="floatingCart">
+    🛒 Ver meu pedido <span id="floatingCount">0</span>
+  </button>
+
+</body>
+</html>
