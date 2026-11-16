@@ -39,16 +39,6 @@
   ],
   "products": [
     {
-      "id": "p1",
-      "name": "Leite Ninho",
-      "category": "Clássicas",
-      "price": 16,
-      "description": "Pipoca crocante envolvida em uma deliciosa camada de leite em pó.",
-      "badge": "Mais pedida",
-      "image": "",
-      "active": true
-    },
-    {
       "id": "p2",
       "name": "Brigadeiro",
       "category": "Chocolatudas",
