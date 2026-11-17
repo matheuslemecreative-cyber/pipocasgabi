@@ -38,17 +38,6 @@
   ],
   "products": [
     {
-      "id": "id_007b1bab-0e8a-4b36-9300-602a2b9c9633",
-      "name": "dsfsdffsd3",
-      "category": "Clássicas",
-      "price": 34,
-      "description": "ERERWEREWRE",
-      "badge": "",
-      "image": "",
-      "active": true,
-      "saleType": "sizes"
-    },
-    {
       "id": "id_b51569c4-b0fa-4fb5-8d78-4f9e2ee13d88",
       "name": "Teste Pipoca 2",
       "price": 10,
