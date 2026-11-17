@@ -260,9 +260,12 @@
       <form id="bannerForm">
         <input type="hidden" id="bannerId">
         <div class="form-grid">
-          <label class="full">Título principal
-            <input id="bannerTitle" required maxlength="120">
-          </label>
+
+<label class="full">Título principal (opcional)
+  <input id="bannerTitle" maxlength="120"
+    placeholder="Deixe em branco para banners somente com imagem">
+</label>
+
           <label class="full">Descrição
             <textarea id="bannerSubtitle" rows="3" maxlength="250"></textarea>
           </label>
