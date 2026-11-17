@@ -314,7 +314,18 @@ function renderProducts() {
               ${isSingle(product) ? "Embalagem:" : "Escolha o tamanho:"}
             </span>
 
-            ${isSingle(product) ? `<div class="size-options"><div class="size-option active" style="cursor:default"><strong>Único</strong><small>50g</small><span>${money(product.price)}</span></div></div>` : `<div class="size-options">
+            ${isSingle(product) ? `
+  <div class="size-options single-size-options">
+    <div class="size-option single-size-option active">
+      <strong>Único</strong>
+
+      <div class="single-size-details">
+        <small>50g</small>
+        <span>${money(product.price)}</span>
+      </div>
+    </div>
+  </div>
+` : `<div class="size-options">
               ${Object.entries(POPCORN_SIZES)
                 .map(([size, info]) => `
                   <button
