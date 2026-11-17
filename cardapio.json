@@ -39,16 +39,6 @@
   ],
   "products": [
     {
-      "id": "p9",
-      "name": "Caramelo Crocante",
-      "category": "Clássicas",
-      "price": 15,
-      "description": "Pipoca caramelizada, douradinha e crocante a cada mordida.",
-      "badge": "",
-      "image": "",
-      "active": true
-    },
-    {
       "id": "p10",
       "name": "Chocolate Branco",
       "category": "Chocolatudas",
