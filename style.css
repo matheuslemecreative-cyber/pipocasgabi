@@ -1797,3 +1797,34 @@ main {
     font-size: 10px;
   }
 }
+
+
+/* TAMANHO ÚNICO — FONTES MAIORES */
+
+.product-sizes .single-size-option > strong {
+  font-size: 21px;
+}
+
+.product-sizes .single-size-details small {
+  font-size: 14px;
+}
+
+.product-sizes .single-size-details span {
+  font-size: 16px;
+}
+
+/* CELULARES */
+@media (max-width: 700px) {
+  .product-sizes .single-size-option > strong {
+    font-size: 18px;
+  }
+
+  .product-sizes .single-size-details small {
+    font-size: 12px;
+  }
+
+  .product-sizes .single-size-details span {
+    font-size: 13px;
+  }
+}
+
