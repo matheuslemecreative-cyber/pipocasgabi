@@ -285,9 +285,9 @@ async function readImage(file) {
   if (!["image/png","image/jpeg","image/webp"].includes(file.type)) {
     throw new Error("Use imagens PNG, JPG ou WebP.");
   }
-  if (file.size > 400 * 1024) {
-    throw new Error("A imagem deve ter no máximo 400 KB. Comprima a imagem antes de enviar.");
-  }
+if (file.size > 1024 * 1024) {
+  throw new Error("A imagem deve ter no máximo 1 MB.");
+}
   return new Promise((resolve, reject) => {
     const reader = new FileReader();
     reader.onload = () => resolve(reader.result);
