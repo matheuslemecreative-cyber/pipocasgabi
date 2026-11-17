@@ -38,21 +38,10 @@
   ],
   "products": [
     {
-      "id": "id_b51569c4-b0fa-4fb5-8d78-4f9e2ee13d88",
-      "name": "Teste Pipoca 2",
-      "category": "Clássicas",
-      "price": 10,
-      "description": "xfxgdfg",
-      "badge": "",
-      "image": "",
-      "active": true,
-      "saleType": "single"
-    },
-    {
       "id": "id_cae0c949-5381-4e16-bb72-1e9b54a1da6e",
       "name": "gfgfgdf",
-      "price": 44,
       "category": "Mais Pedidas",
+      "price": 44,
       "description": "cvbcvbcvb",
       "badge": "",
       "image": "",
