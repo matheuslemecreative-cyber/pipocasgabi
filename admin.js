@@ -456,7 +456,9 @@ async function saveBanner(event) {
 
     const banner = {
       id:$("#bannerId").value || uid(),
-title:$("#bannerTitle").value.trim() || "Banner promocional",
+
+title: $("#bannerTitle").value.trim(),
+
       subtitle:$("#bannerSubtitle").value.trim(),
       tag:$("#bannerTag").value.trim(),
       color:$("#bannerColor").value,
