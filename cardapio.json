@@ -39,16 +39,6 @@
   ],
   "products": [
     {
-      "id": "p2",
-      "name": "Brigadeiro",
-      "category": "Chocolatudas",
-      "price": 18,
-      "description": "Cobertura cremosa de brigadeiro com sabor intenso de chocolate.",
-      "badge": "Queridinha",
-      "image": "",
-      "active": true
-    },
-    {
       "id": "p3",
       "name": "Nutella",
       "category": "Premium",
