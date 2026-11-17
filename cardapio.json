@@ -1,0 +1,142 @@
+{
+  "store": {
+    "name": "Bih Bih Pipocas Gourmet",
+    "logo": "logo.png",
+    "whatsapp": "",
+    "description": "Mais que pipoca, é um momento especial!"
+  },
+  "categories": [
+    "Clássicas",
+    "Chocolatudas",
+    "Especiais",
+    "Premium"
+  ],
+  "banners": [
+    {
+      "id": "b1",
+      "title": "A felicidade tem sabor de pipoca!",
+      "subtitle": "Descubra sabores irresistíveis preparados com muito carinho.",
+      "tag": "BEM-VINDO À DOCE ESTOURO",
+      "color": "#633253",
+      "image": ""
+    },
+    {
+      "id": "b2",
+      "title": "Uma explosão de chocolate",
+      "subtitle": "Brigadeiro, Nutella e muitas outras delícias.",
+      "tag": "PARA QUEM AMA CHOCOLATE",
+      "color": "#79435a",
+      "image": ""
+    },
+    {
+      "id": "b3",
+      "title": "Seu momento merece mais doçura",
+      "subtitle": "Escolha suas pipocas favoritas e peça pelo WhatsApp.",
+      "tag": "FEITAS COM AMOR",
+      "color": "#a95776",
+      "image": ""
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "Leite Ninho",
+      "category": "Clássicas",
+      "price": 16,
+      "description": "Pipoca crocante envolvida em uma deliciosa camada de leite em pó.",
+      "image": "",
+      "badge": "Mais pedida",
+      "active": true
+    },
+    {
+      "id": "p2",
+      "name": "Brigadeiro",
+      "category": "Chocolatudas",
+      "price": 18,
+      "description": "Cobertura cremosa de brigadeiro com sabor intenso de chocolate.",
+      "image": "",
+      "badge": "Queridinha",
+      "active": true
+    },
+    {
+      "id": "p3",
+      "name": "Nutella",
+      "category": "Premium",
+      "price": 24,
+      "description": "Pipoca gourmet com um toque irresistível de creme de avelã.",
+      "image": "",
+      "badge": "Premium",
+      "active": true
+    },
+    {
+      "id": "p4",
+      "name": "Doce de Leite",
+      "category": "Clássicas",
+      "price": 18,
+      "description": "Crocância especial com o sabor marcante do doce de leite.",
+      "image": "",
+      "badge": "",
+      "active": true
+    },
+    {
+      "id": "p5",
+      "name": "Ninho com Nutella",
+      "category": "Premium",
+      "price": 26,
+      "description": "Uma combinação deliciosa de leite em pó e creme de avelã.",
+      "image": "",
+      "badge": "Especial",
+      "active": true
+    },
+    {
+      "id": "p6",
+      "name": "Ovomaltine",
+      "category": "Chocolatudas",
+      "price": 21,
+      "description": "Chocolate com o toque crocante e maltado do Ovomaltine.",
+      "image": "",
+      "badge": "",
+      "active": true
+    },
+    {
+      "id": "p7",
+      "name": "Morango Encantado",
+      "category": "Especiais",
+      "price": 19,
+      "description": "Cobertura doce com sabor de morango e uma crocância delicada.",
+      "image": "",
+      "badge": "Novidade",
+      "active": true
+    },
+    {
+      "id": "p8",
+      "name": "Cookies & Cream",
+      "category": "Premium",
+      "price": 23,
+      "description": "Chocolate branco e pedacinhos crocantes de biscoito.",
+      "image": "",
+      "badge": "",
+      "active": true
+    },
+    {
+      "id": "p9",
+      "name": "Caramelo Crocante",
+      "category": "Clássicas",
+      "price": 15,
+      "description": "Pipoca caramelizada, douradinha e crocante a cada mordida.",
+      "image": "",
+      "badge": "",
+      "active": true
+    },
+    {
+      "id": "p10",
+      "name": "Chocolate Branco",
+      "category": "Chocolatudas",
+      "price": 20,
+      "description": "Pipoca coberta com chocolate branco doce e delicado.",
+      "image": "",
+      "badge": "",
+      "active": true
+    }
+  ]
+}
