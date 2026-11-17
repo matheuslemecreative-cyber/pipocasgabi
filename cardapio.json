@@ -36,16 +36,5 @@
       "image": ""
     }
   ],
-  "products": [
-    {
-      "id": "id_eda27367-1565-41b5-b4de-1435d529bc1c",
-      "name": "Teste Pipoca",
-      "price": 17,
-      "category": "Clássicas",
-      "description": "sdfsdfsd",
-      "badge": "",
-      "image": "",
-      "active": true
-    }
-  ]
+  "products": []
 }
