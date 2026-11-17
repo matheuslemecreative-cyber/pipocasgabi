@@ -39,16 +39,6 @@
   ],
   "products": [
     {
-      "id": "p10",
-      "name": "Chocolate Branco",
-      "category": "Chocolatudas",
-      "price": 20,
-      "description": "Pipoca coberta com chocolate branco doce e delicado.",
-      "badge": "",
-      "image": "",
-      "active": true
-    },
-    {
       "id": "id_46168a53-c4e3-49f8-9fc4-875c9d16671a",
       "name": "Chocolate Belga",
       "category": "Chocolatudas",
