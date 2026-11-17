@@ -39,16 +39,6 @@
   ],
   "products": [
     {
-      "id": "p5",
-      "name": "Ninho com Nutella",
-      "category": "Premium",
-      "price": 26,
-      "description": "Uma combinação deliciosa de leite em pó e creme de avelã.",
-      "badge": "Especial",
-      "image": "",
-      "active": true
-    },
-    {
       "id": "p6",
       "name": "Ovomaltine",
       "category": "Chocolatudas",
