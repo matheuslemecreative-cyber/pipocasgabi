@@ -39,16 +39,6 @@
   ],
   "products": [
     {
-      "id": "p7",
-      "name": "Morango Encantado",
-      "category": "Especiais",
-      "price": 19,
-      "description": "Cobertura doce com sabor de morango e uma crocância delicada.",
-      "badge": "Novidade",
-      "image": "",
-      "active": true
-    },
-    {
       "id": "p8",
       "name": "Cookies & Cream",
       "category": "Premium",
