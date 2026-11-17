@@ -39,16 +39,6 @@
   ],
   "products": [
     {
-      "id": "p4",
-      "name": "Doce de Leite",
-      "category": "Clássicas",
-      "price": 18,
-      "description": "Crocância especial com o sabor marcante do doce de leite.",
-      "badge": "",
-      "image": "",
-      "active": true
-    },
-    {
       "id": "p5",
       "name": "Ninho com Nutella",
       "category": "Premium",
