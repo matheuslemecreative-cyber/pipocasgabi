@@ -39,16 +39,6 @@
   ],
   "products": [
     {
-      "id": "p8",
-      "name": "Cookies & Cream",
-      "category": "Premium",
-      "price": 23,
-      "description": "Chocolate branco e pedacinhos crocantes de biscoito.",
-      "badge": "",
-      "image": "",
-      "active": true
-    },
-    {
       "id": "p9",
       "name": "Caramelo Crocante",
       "category": "Clássicas",
