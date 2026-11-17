@@ -12,14 +12,6 @@
   ],
   "banners": [
     {
-      "id": "b1",
-      "title": "A felicidade tem sabor de pipoca!",
-      "subtitle": "Descubra sabores irresistíveis preparados com muito carinho.",
-      "tag": "BEM-VINDO À DOCE ESTOURO",
-      "color": "#633253",
-      "image": ""
-    },
-    {
       "id": "b2",
       "title": "Uma explosão de chocolate",
       "subtitle": "Brigadeiro, Nutella e muitas outras delícias.",
