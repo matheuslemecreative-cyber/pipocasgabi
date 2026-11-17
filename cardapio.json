@@ -37,16 +37,5 @@
       "image": ""
     }
   ],
-  "products": [
-    {
-      "id": "id_46168a53-c4e3-49f8-9fc4-875c9d16671a",
-      "name": "Chocolate Belga",
-      "category": "Chocolatudas",
-      "price": 17,
-      "description": "Chocolate",
-      "badge": "",
-      "image": "",
-      "active": true
-    }
-  ]
+  "products": []
 }
