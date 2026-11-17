@@ -5,6 +5,30 @@
     "whatsapp": "5514997560061",
     "description": "Mais que pipoca, é um momento especial!"
   },
+  "options": {
+    "flavors": [
+      "Ninho com Nutella",
+      "Ninho",
+      "Nutella",
+      "Ovomaltine",
+      "Nesquik",
+      "Laka Cookies",
+      "Kinder Bueno",
+      "Coco"
+    ],
+    "toppings": [
+      "Amendoim",
+      "Chocoball",
+      "Granulado",
+      "M&M"
+    ]
+  },
+  "location": {
+    "active": false,
+    "date": "",
+    "place": "",
+    "details": ""
+  },
   "categories": [
     "Clássicas",
     "Trufadas (Sachê)",
