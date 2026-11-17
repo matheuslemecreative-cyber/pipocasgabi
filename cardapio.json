@@ -12,14 +12,6 @@
   ],
   "banners": [
     {
-      "id": "b2",
-      "title": "Uma explosão de chocolate",
-      "subtitle": "Brigadeiro, Nutella e muitas outras delícias.",
-      "tag": "PARA QUEM AMA CHOCOLATE",
-      "color": "#79435a",
-      "image": ""
-    },
-    {
       "id": "b3",
       "title": "Seu momento merece mais doçura",
       "subtitle": "Escolha suas pipocas favoritas e peça pelo WhatsApp.",
