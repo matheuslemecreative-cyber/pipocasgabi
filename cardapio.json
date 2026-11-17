@@ -36,5 +36,17 @@
       "image": ""
     }
   ],
-  "products": []
+  "products": [
+    {
+      "id": "id_3a981315-9514-4626-bb88-3e6f2e572209",
+      "name": "Ninho com Nutella",
+      "price": 17,
+      "category": "Clássicas",
+      "description": "Pipoca gourmet crocante, coberta com a cremosidade irresistível de Ninho com Nutella.",
+      "badge": "Mais Pedido",
+      "image": "",
+      "active": true,
+      "saleType": "sizes"
+    }
+  ]
 }
