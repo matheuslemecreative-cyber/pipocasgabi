@@ -36,5 +36,16 @@
       "image": ""
     }
   ],
-  "products": []
+  "products": [
+    {
+      "id": "id_007b1bab-0e8a-4b36-9300-602a2b9c9633",
+      "name": "dsfsdffsd3",
+      "price": 34,
+      "category": "Clássicas",
+      "description": "ERERWEREWRE",
+      "badge": "",
+      "image": "",
+      "active": true
+    }
+  ]
 }
